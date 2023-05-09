@@ -37,8 +37,17 @@ body {
 }
 
 @media (max-width: 700px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+  }
+
   .timer-values {
-    font-size: 60px !important;
+    font-size: 50px !important;
   }
 
   .countdown-timer-container div {

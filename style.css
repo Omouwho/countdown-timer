@@ -1,0 +1,47 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 600px; */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/timerbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin: 0 auto; */
+}
+
+.countdown-timer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.countdown-timer-container div {
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+  color: #c3a595;
+}
+
+.timer-values {
+  font-size: 90px !important;
+}
+
+@media (max-width: 700px) {
+  .timer-values {
+    font-size: 60px !important;
+  }
+
+  .countdown-timer-container div {
+    font-size: 20px;
+  }
+}
